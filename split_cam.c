@@ -1,3 +1,16 @@
+/* This file implements a data splitter
+ * for data coming in to STDIN.
+ * Data is split to be written to a 
+ * file as well as written back out
+ * to STDOUT for streaming.
+ *
+ * All code provided is as is and
+ * is not fully tested.
+ *
+ * Author: Aadil Rizvi
+ * Date Created: 11/25/2016
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
