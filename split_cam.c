@@ -28,9 +28,6 @@
 static int fd_out;
 
 void sig_handler(int signum) {
-  if (signum != SIGINT) {
-    exit(0);
-  }
 
   if (fd_out >= 0) {    
     // Flush all write queues
